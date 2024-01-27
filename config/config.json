@@ -1,0 +1,5 @@
+{
+    "development":"http://localhost:5004",
+    "developmentGait":"http://localhost:5509",
+    "production":"https://api.bearlytech.com"
+}

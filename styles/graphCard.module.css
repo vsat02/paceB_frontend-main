@@ -1,0 +1,32 @@
+.graphCard {
+  width: 100vw;
+  height: 35vw;
+  margin-bottom: 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 4px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 50px;
+}
+
+.graphCard1 {
+  width: 42vw;
+ 
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 4px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.headingText{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.no-print {
+  display: none;
+}

@@ -1,0 +1,63 @@
+.patientCard {
+  width: 308px;
+  height: 155px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 4px 0px 25px rgba(0, 0, 0, 0.15);
+
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.nameDet {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  width: 275px;
+
+  color: #000000;
+  padding: 25px 0 0 15px;
+}
+
+.gender {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+
+  color: #000000;
+  padding: 0px 0px 0px 0px;
+}
+
+.id {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 1px; */
+  line-height: 10px;
+
+
+  color: #adadad;
+  padding: 0 0 0 15px;
+}
+
+.details {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  padding: 0 0 0px 15px;
+
+  color: #e64e4e;
+  float: right;
+  margin-right: 20px;
+  /* margin-top: 10px; */
+  cursor: pointer;
+}

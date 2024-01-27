@@ -1,0 +1,35 @@
+.dgreen {
+  font-family: "Inter", sans-serif;
+  color: #e54e4e;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.shoeImg {
+  width: 25vw;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.shoeOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.shoeButton {
+  background-color: #e54e4e;
+  color: #ffffff;
+  border: 0;
+  width: 12vw;
+  font-weight: 550;
+}
+
+.shoeButton:hover {
+  background-color: #e54e4e;
+  opacity: 90%;
+}

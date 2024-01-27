@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navborder {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #cbcbcb;
+  justify-content: center;
+  align-items: left;
+}
+
+.no-print {
+  display: none;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  gap: 20;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
+}
+
+/* .nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navhead {
+  margin: 0 auto;
+  text-align: center;
+  width: 100vw;
+  background-color: cornflowerblue;
+}
+
+.logout {
+  background-color: crimson;
+  width: 100vw;
+}
+*/
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #section-to-print, #section-to-print * {
+    visibility: visible;
+  }
+
+  .position-fix{
+    /* position: absolute;
+    top: 0;
+    left: 0;  */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+
+ 
+ 
+}

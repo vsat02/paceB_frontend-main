@@ -1,0 +1,72 @@
+.medConditionCard {
+  width: 85vw;
+  height: 4vw;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13vw;
+}
+@media (max-width: 956px) {
+  .medConditionCard {
+    height: 7vw;
+    border-radius: 15px;
+    background-color: #fff;
+    gap: 13vw;
+  }
+}
+@media (max-width: 768px) {
+  .medConditionCard {
+    height: 17vw;
+    border-radius: 15px;
+    background-color: #fff;
+    gap: 13vw;
+  }
+}
+  
+
+.medConditionCardLatest{
+  width: 85vw;
+  height: 4vw;
+  border-radius: 15px;
+  border-color: red;
+  border-style: dotted;
+  border-width: 2px;
+  background-color: #fff;
+  cursor: pointer;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13vw;
+}
+
+.disease {
+  font-family: "Inter";
+  width: 28vw;
+  line-height: 4vw;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.date {
+  font-family: "Inter";
+  /* line-height: 4vw; */
+  margin-top: 15px;
+  width: 15%;
+}
+
+.time {
+  font-family: "Inter";
+  line-height: 4vw;
+  margin-top: 15px;
+}
+
+.arrow {
+  width: 30px;
+  height: auto;
+}

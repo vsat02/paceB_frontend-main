@@ -1,0 +1,64 @@
+.allotShoeWrap {
+  width: 17vw;
+  height: 15vw;
+  background: white;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 4px 0px 25px rgba(0, 0, 0, 0.15);
+
+  border-radius: 10px;
+}
+
+.allotShoeWrapMain {
+  width: 17vw;
+  height: 14vw;
+  background: white;
+  border-radius: 10px;
+}
+.shoeImg {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.shoeImgWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TextWrap {
+  margin-top: 5px;
+  display: flex;
+  line-height: 0.5;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+.heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+}
+.greenText {
+  color: #39a97c;
+  font-family: "Inter";
+  font-style: normal;
+}
+.allotBtn {
+  width: 100px;
+  height: 30px;
+  background: #e64e4e;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 4px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  border: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.allotBtnWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,23 @@
+.profile {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0;
+    text-align: center;
+  }
+  .input {
+    width: 350px;
+    height: 48px;
+  
+    background: #ffffff;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 20px;
+  
+    color: #000000;
+  }
