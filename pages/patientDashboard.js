@@ -85,7 +85,7 @@ function patientDashboard() {
 
   const [search, setSearch] = useState("")    
 
-  const analysisPrice = 120;
+  const analysisPrice = 80;
   // Full patient record state
   const [patientRecords, setPatientRecords] = useState([]);
   const [quantityP, setQuantityP] = useState(0);
