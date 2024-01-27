@@ -137,6 +137,8 @@ function patientDashboard() {
     const rzp1 = new window.Razorpay(options);
     // console.log("haha",rzp1);
     rzp1.open();
+
+    //nothing
 };
   const handlePayment = async () => {
     try {
